@@ -6,7 +6,7 @@ ifeq ($(CONFIG_BUILD_ARM64_DT_OVERLAY),y)
 	dtbo-$(CONFIG_ARCH_SM8150) += \
             vayu/vayu-sm8150-overlay.dtbo
 
-vayu-sm8150-overlay.dtbo-base := sm8150-xiaomi.dtb sm8150-v2-xiaomi.dtb sm8150p-xiaomi.dtb sm8150p-v2-xiaomi.dtb
+vayu-sm8150-overlay.dtbo-base := sm8150-xiaomi.dtb sm8150-v2-xiaomi.dtb
 
 endif
 endif
