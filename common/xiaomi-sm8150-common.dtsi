@@ -395,7 +395,7 @@
 		};
 };
 
-&soc {
+&soc { //temporary
 	restart@c264000 {
 		qcom,force-warm-reboot;
 	};
