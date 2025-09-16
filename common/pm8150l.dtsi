@@ -21,12 +21,6 @@
 	/delete-property/ qcom,gpios-disallowed;
 };
 
-&pm8150l_adc_tm {
-	io-channels = <&pm8150l_vadc ADC_AMUX_THM1_PU2>,
-			<&pm8150l_vadc ADC_AMUX_THM2_PU2>,
-			<&pm8150l_vadc ADC_GPIO3_PU2>;
-};
-
 &pm8150l_flash2 {
 	status = "ok";
 };
